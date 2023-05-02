@@ -2,6 +2,7 @@ import './assets/style/App.css';
 import Nav from './components/Navbar/Navbar';
 import Header from './container/Header/Header';
 import About from './container/AboutUs/Aboutus';
+import Home from './pages/HomePage';
 import Map from './pages/MapPage';
 
 function App() {

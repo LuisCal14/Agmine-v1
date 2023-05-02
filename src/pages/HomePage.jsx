@@ -1,6 +1,7 @@
 import '../assets/style/Home.css'
 import Planet from '../assets/images/planet.svg'
 
+
 function HomePage(){
     
     return (
