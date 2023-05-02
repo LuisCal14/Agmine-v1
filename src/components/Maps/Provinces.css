@@ -1,0 +1,12 @@
+path {
+    fill: var(--color-green);
+    stroke: black;
+}
+
+path:hover {
+    fill: var(--color-greener);
+}
+
+svg {
+    height: 90vh;
+}
