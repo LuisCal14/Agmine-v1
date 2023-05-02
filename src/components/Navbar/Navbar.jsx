@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import './nav.css';
 import {GiHamburgerMenu} from 'react-icons/gi'
 import { AiOutlineClose } from "react-icons/ai";
@@ -28,7 +29,7 @@ function Nav() {
                     <ul className='navbar-smallscreen_links'>
                         <li className='p__opensans'><a href="#home">Home</a></li>
                         <li className='p__opensans'><a href="#about">About</a></li>
-                        <li className='p__opensans'><a href="#menu">Games</a></li>
+                        <li className='p__opensans'><Link to="/quizziz">Games</Link></li>
                     </ul>
                 </div>
                 )}

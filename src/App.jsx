@@ -1,20 +1,19 @@
-import './assets/style/App.css';
-import Nav from './components/Navbar/Navbar';
-import Header from './container/Header/Header';
-import About from './container/AboutUs/Aboutus';
-import Home from './pages/HomePage';
-import Map from './pages/MapPage';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./assets/style/App.css";
+import HomePage from "./pages/HomePage";
+import Quizziz from "./pages/Quizziz";
+import MainPage from "./pages/MainPage";
 
-function App() {
-
+const App = () => {
   return (
-    <div className="app">
-      <Nav/>
-      <Header/>
-      <About />
-      <Map />
-    </div>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="*" element={<MainPage Main={Quizziz} />} />
+        <Route path="/" element={<MainPage Main={HomePage} />} />
+        <Route path="/quizziz" element={<MainPage Main={Quizziz} />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;
