@@ -1,0 +1,7 @@
+.regiones-sur {
+    height: 90vh;
+}
+
+.regiones-sur g:hover {
+    fill: var(--color-greener);
+}

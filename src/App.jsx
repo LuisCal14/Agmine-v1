@@ -1,18 +1,26 @@
 import './assets/style/App.css';
-import Nav from './components/Navbar/Navbar';
-import Header from './container/Header/Header';
-import About from './container/AboutUs/Aboutus';
-import Map from './pages/MapPage';
+import HomePage from './pages/HomePage';
+import Province from './pages/Maps/ProvincesPage';
+import RegionE from './pages/Maps/RegionsEstePage';
+import RegionN from './pages/Maps/RegionsNortePage';
+import RegionS from './pages/Maps/RegionSurPage';
+import { BrowserRouter as Router } from 'react-router-dom'
+import Games from './container/Games/Games';
+
 
 function App() {
 
   return (
+    <Router>
     <div className="app">
-      <Nav/>
-      <Header/>
-      <About />
-      <Map />
+      <HomePage/>
+      <Province/>
+      <RegionE />
+      <RegionN />
+      <RegionS />
+      <Games />
     </div>
+    </Router>
   )
 }
 

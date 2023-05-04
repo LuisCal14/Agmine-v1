@@ -17,7 +17,7 @@ function About() {
             <div className="aboutus-content flex__center">
                 <div className="aboutus-content_about">
                     <h1 className="headtext__poppins">About us</h1>
-                    <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis libero repellat qui ab repellendus sit necessitatibus inventore quod ratione tempora, dolores, sed quam facilis incidunt enim odit expedita provident.</p>
+                    <p className="p__opensans">Este proyecto fue hecho por un grupo de estudiantes de 6to aficionados a la tecnología, a la programación y a las ciencias sociales. Somos un grupo con ganas de mejorar la forma de enseñar, que desde un punto de vista de estudiantes, es deficiente y bastante aburrida.</p>
                 </div>
 
                 <div className="aboutus-content_pin flex__center">
@@ -26,7 +26,7 @@ function About() {
 
                 <div className="aboutus-content_history">
                     <h1 className="headtext__poppins">Our Mission</h1>
-                    <p className="p__opensans">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, deleniti, sapiente totam accusamus nam temporibus libero voluptates saepe odit recusandae in maxime iusto amet, natus pariatur quos. Vero, earum cupiditate?</p>
+                    <p className="p__opensans">Nuestros objetivos no son muy claros, pero si tenemos en claro el potencial de este proyecto. La misión de este es simplemente ayudar a esos profesores a cumplir con el programa de una manera mas dinámica y divertida para los estudiantes. Que muchas veces se ven agobiados y estresados por metodos obsoletos de enseñanza.</p>
                 </div>
             </div>
 

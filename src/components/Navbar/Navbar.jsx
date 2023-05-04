@@ -3,6 +3,7 @@ import './nav.css';
 import {GiHamburgerMenu} from 'react-icons/gi'
 import { AiOutlineClose } from "react-icons/ai";
 import Logo from '../../assets/images/logo.png'
+import { Link } from 'react-router-dom'
 
 function Nav() {
     
@@ -17,7 +18,7 @@ function Nav() {
             <ul className="navbar-links">
                 <li><a href="#home" className="nav-txt">Home</a></li>
                 <li><a href="#about" className="nav-txt">About</a></li>
-                <li><a href="#" className="nav-txt">Games</a></li>
+                <li><Link className="nav-text" to="/games">Games</Link></li>
             </ul>
             <div className="navbar-smallscreen">
             <GiHamburgerMenu color='#9bf2ea' fontSize={30} onClick={() => setToogleMenu(true)}></GiHamburgerMenu>
