@@ -1,5 +1,6 @@
 .aboutus {
     position:  relative;
+    min-height: 100vh
 }
 
 .aboutus-overlay {
@@ -36,7 +37,7 @@
 
 .aboutus-content_pin img {
     height: 400px;
-    width: 350px;
+    width: 400px;
 }
 
 .aboutus-content_history {

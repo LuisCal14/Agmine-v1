@@ -14,17 +14,20 @@ function Games() {
                     
                     <div className='games-option'>
                         <img src={map} alt="maps" />
-                        <button type='button' className='custom__buttonR'>Entrar</button>
+                        <Link to="/mapmenu">
+                            <button type='button' className='custom__buttonR'>Entrar</button>
+                        </Link>
                     </div>
                     
                     <div className='games-option'>
                         <img src={quiz} alt="quiz" />
-                        <button type='button' className='custom__buttonR'>Entrar</button>
+                            <button type='button' className='custom__buttonR'>Entrar</button>
+
                     </div>
                 
                 </div>
                 
-                <Link to="/home">Volver al inicio</Link>
+                <Link to="/">Volver al inicio</Link>
             </div>
         </div>
     )

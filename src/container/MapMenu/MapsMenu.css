@@ -1,4 +1,4 @@
-.games-h1 {
+.menu-h1 {
     font-family: var(--font-base);
     color: var(--color-green);
     letter-spacing: 0.04em;
@@ -9,7 +9,7 @@
     padding: 1rem;
 }
 
-.games {
+.menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,55 +17,49 @@
     background-color: var(--color-grey);
 }
 
-.games-container {
+.menu-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     background-color: var(--color-black);
-    width: 900px;
-    height: 650px;
+    width: 1000px;
+    height: 700px;
     border-radius: 10px;
 }
 
-.games-container a {
+.menu-container .link {
     text-align: center;
-    margin-top: 2.5rem;
     color: var(--color-green);
+    padding: 0.5rem;
     transition: 0.4s ease;
 }
 
-.games-container a:hover {
+.menu-container .link :hover {
     border: 1px;
     border-color: var(--color-greener);
     color: var(--color-greener);
 }
 
-.games__options-container {
+.menu__options-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 15px;
     align-items: center;
 }
 
-.games-option {
+.maps-option {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: var(--color-grey);
     border-radius: 10px;
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 220px;
     padding: 2rem;
 }
 
-.games-option button {
-    transition: 0.2s ease;
-}
-
-.games-option button:hover {
-    transform: scale(1.1);
-}
-
-.games-option img{
+.maps-option img{
     width: 60%;
 }
